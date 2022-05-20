@@ -1,11 +1,11 @@
 import br.com.alura.tdd.modelo.Funcionario;
 import br.com.alura.tdd.service.BonusService;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class BonusServiceTest {
 
