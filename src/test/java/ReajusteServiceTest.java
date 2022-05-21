@@ -33,7 +33,6 @@ public class ReajusteServiceTest {
         ReajusteService reajusteService = new ReajusteService();
         Funcionario funcionario = new Funcionario("Ayrton", LocalDate.now(),new BigDecimal("1000.00"));
         reajusteService.concederReajusteAnual(funcionario, Desempenho.OTIMO);
-
         assertEquals(new BigDecimal("1200.00"),funcionario.getSalario());
     }
 }
